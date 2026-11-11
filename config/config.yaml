@@ -7,7 +7,7 @@ testing:
 ammeters:
  greenlee:
    port: 5001
-   command: "WRONG"
+   command: "MEASURE_GREENLEE -get_measurement"
  entes:
    port: 5002
    command: "MEASURE_ENTES -get_data"
